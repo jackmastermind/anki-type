@@ -4,13 +4,35 @@ This add-on places a text area in Anki's reviewer bottom bar and blocks the *Sho
 
 ## Installation
 
-### AnkiWeb
+### AnkiWeb (Recommended)
 
-TODO
+Coming soon! This add-on will be available on AnkiWeb at: https://ankiweb.net/shared/addons/
 
-### Manual
-1. Copy the `anki-type` folder (containing `__init__.py` and `manifest.json`) into your Anki add-ons directory (typically ~/.local/share/Anki2/addons21 on Debian).
-2. Restart Anki or reload the add-ons (`Tools → Add-ons → Reload`).
+### From GitHub Releases
+
+1. Download the latest `.ankiaddon` file from the [Releases page](https://github.com/jackmastermind/anki-type/releases)
+2. Open Anki and go to `Tools → Add-ons`
+3. Click `Install from file...` and select the downloaded `.ankiaddon` file
+4. Restart Anki
+
+### Manual Installation
+
+1. Clone or download this repository
+2. Copy the contents (not the folder itself) into your Anki add-ons directory:
+   - Windows: `%APPDATA%\Anki2\addons21\anki-type\`
+   - Mac: `~/Library/Application Support/Anki2/addons21/anki-type/`
+   - Linux: `~/.local/share/Anki2/addons21/anki-type/`
+3. Restart Anki or reload add-ons (`Tools → Add-ons → Reload`)
+
+## Building from Source
+
+To create a `.ankiaddon` package yourself:
+
+```bash
+python build.py
+```
+
+This will create `dist/anki-type-{version}.ankiaddon` which can be installed in Anki or uploaded to AnkiWeb.
 
 ## Usage
 

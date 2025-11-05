@@ -1,0 +1,14 @@
+{
+  "name": "Type Before Show Answer",
+  "package": "anki-type",
+  "version": "1.0.0",
+  "mod": 0,
+  "author": "Jack Thompson",
+  "description": "Force yourself to write something down before turning over the next flashcard.",
+  "homepage": "https://github.com/jackmastermind/anki-type",
+  "min_point_version": 54,
+  "max_point_version": 0,
+  "branch_index": 0,
+  "conflicts": []
+}
+

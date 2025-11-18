@@ -6,7 +6,11 @@ This add-on places a text area in Anki's reviewer bottom bar and blocks the *Sho
 
 ### AnkiWeb (Recommended)
 
-Coming soon! This add-on will be available on AnkiWeb at: https://ankiweb.net/shared/addons/
+1. Go to https://ankiweb.net/shared/info/329533770
+2. Copy the addon number
+3. Open Anki and go to `Tools → Add-ons → Get add-ons…`
+4. Paste in the code
+5. Restart Anki
 
 ### From GitHub Releases
 
